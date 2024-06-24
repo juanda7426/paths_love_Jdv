@@ -1,0 +1,51 @@
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.titulo {
+    text-shadow: black 3px 5px 5px;
+    font-size: 2.5em;
+}
+
+.contenedor {
+    background-color: #0087B7;
+    border-bottom: #ffffff 2px solid;
+}
+
+.navItem {
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.navItem.active {
+    color: #0087B7 !important;
+}
+
+li {
+    border: solid 3px #ffffff;
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    font-size: larger;
+    padding: 4px;
+    margin-right: 50px;
+    box-shadow: black 5px 10px 10px;
+}
+
+li:hover {
+    background-color: #ffffff;
+    border: solid 3px #707070;
+}
+
+.navItem:hover {
+    color: #0087B7 !important;
+}
