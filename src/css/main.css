@@ -30,4 +30,9 @@ html,
     bottom: 30px;
     right: 20px;
     z-index: 1000;
+    background-color: rgb(0, 196, 13);
+}
+
+.whatsapp-float:hover {
+    background-color: #0087B7;
 }

@@ -6,7 +6,7 @@ export const MainLove = ({ children }) => {
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
   return (
-    <div className="mainlove d-flex justify-content-center align-items-start">
+    <div className=" d-flex justify-content-center align-items-start">
       {children}
       {/* Botón de WhatsApp flotante */}
       <a

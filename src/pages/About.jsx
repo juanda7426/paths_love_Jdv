@@ -6,7 +6,7 @@ export const About = () => {
     <>
       <div className="container-fluid ">
         <div className="row mt-3 justify-content-center">
-          <div className="col-sm-5 ">
+          <div className="col-sm-5 me-2 ">
             <img
               src="../img/loveRct.jpg"
               alt="About Us"
@@ -14,7 +14,8 @@ export const About = () => {
               style={{ height: "450px", width: "600px", borderRadius: "100px" }}
             />
           </div>
-          <div className="card col-sm-5 p-4 text-center " style={{backgroundColor: "#0087B7", color: "white", fontSize: "16px"}}>
+
+          <div className="card col-sm-5 p-3 ms-2 text-center nos" style={{backgroundColor: "#0087B7", color: "white", fontSize: "16px"}}>
             <h2 className="text-light mb-3 text-center">Sobre nosotros</h2>
             <p>
               Nuestra funeraria se especializa en el cuidado y entierro de
