@@ -49,3 +49,41 @@ li:hover {
 .navItem:hover {
     color: #0087B7 !important;
 }
+
+/* media query */
+
+@media (width<=768px) {
+    .titulo {
+        text-shadow: rgb(0, 0, 0) 3px 5px 5px;
+        font-size: 1.6em;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin: 1px;
+        justify-content: center;
+    }
+    .navItem {
+        color: #ffffff !important;
+        font-weight: 500;
+        font-size: 0.6em;
+    }
+    ul {
+        list-style: none;
+        padding: 10px;
+        margin-left: 50px;
+        align-items: center;
+      }
+    
+      li {
+        border: solid 3px #ffffff;
+        border-radius: 50px;
+        width: 100px;
+        text-align: center;
+        font-size: larger;
+        padding: 2px;
+        margin-bottom: 10px;
+        box-shadow: 5px 10px 10px black;
+      }
+     
+    }

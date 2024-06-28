@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { plan1, plan2 } from "../config/arreglos";
+import { Number, plan1, plan2, whatsappLink } from "../config/arreglos";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { isMobile } from "./../config/funciones";
+import "../css/planes.css";
 
 export const Planes = () => {
-  const whatsappNumber = "+573007256149";
-  const whatsappLink = `https://wa.me/${whatsappNumber}`;
+  
   const logo = "../../img/logoS.png";
   const [mobile, setMobile] = useState(false);
 
@@ -17,7 +17,7 @@ export const Planes = () => {
   return (
     <>
       <FloatingWhatsApp
-        phoneNumber="57 3007256149"
+        phoneNumber={Number}
         accountName="Caminos de Amor"
         allowEsc
         allowClickAway
@@ -30,15 +30,15 @@ export const Planes = () => {
         avatar={logo}
       />
       <div className="container mb-3">
-        <h4 className="text-center mt-2 mb-4"  style={mobile ? { fontSize: "14px", textAlign: "center" } : { fontSize: "16px" }}>
+        <h4 className="text-center mt-2 mb-4 heding"  >
           Traslado de la mascota fallecida un solo traslado Suroeste Antioqueño
           Medellín o área Metropolitana
         </h4>
         <div className="row">
 
-          <div className={`col-sm-6 ${mobile ? "mb-3" : ""}`}>
+          <div className={`col-sm-6 ${mobile ? "mb-3" : ""} `}>
             <div
-              className="card text-center"
+              className="card text-center cnt"
               style={{
                 padding: "10px",
                 backgroundColor: "#0087B7",
@@ -85,13 +85,7 @@ export const Planes = () => {
                   href={whatsappLink}
                   target="_blank"
                   title="Chat WhatsApp"
-                  className="btn btn-secondary mt-3"
-                  style={{
-                    position: "absolute",
-                    bottom: "10px",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                  }}
+                  className="btn btn-secondary btn-informacion"
                 >
                   Mas Informacion
                 </a>
@@ -99,9 +93,8 @@ export const Planes = () => {
             </div>
           </div>
 
-          <div className="col-sm-6">
-            <div
-              className="card text-center"
+          <div className="col-sm-6 ">
+            <div className="card text-center cnt"
               style={{
                 padding: "10px",
                 backgroundColor: "#9E9E9E",
@@ -149,13 +142,7 @@ export const Planes = () => {
                   href={whatsappLink}
                   target="_blank"
                   title="Chat WhatsApp"
-                  className="btn btn-primary mt-3"
-                  style={{
-                    position: "absolute",
-                    bottom: "10px",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                  }}
+                  className="btn btn-primary btn-informacion"
                 >
                   Mas Informacion
                 </a>

@@ -1,0 +1,37 @@
+.heding{
+font-size: 22px;
+ text-align: center;
+}
+
+.btn-informacion{
+    font-size: 16px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 1px 1px 3px black;
+}
+
+.cnt{
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+@media (width<=768px) {
+    .heding{
+        font-size: 16px;
+    }
+    .btn-informacion{
+        font-size: 13px;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 1px 1px 3px black;
+    
+    }
+
+}

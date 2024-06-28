@@ -1,16 +1,15 @@
 import React from 'react'
-import '../css/qr.css'
 import { NavLink } from 'react-router-dom'
-import { FloatingWhatsApp } from 'react-floating-whatsapp';
+import '../css/qr.css'
+// import { FloatingWhatsApp } from 'react-floating-whatsapp';
+import { whatsappLink } from './../config/arreglos';
 
 export const OptionsQr = () => {
-    const whatsappNumber = "+573007256149";
-    const whatsappLink = `https://wa.me/${whatsappNumber}`;
-    const logo = "../../img/logoS.png";
+    // const logo = "../../img/logoS.png";
 
     return (
         <>
-             <FloatingWhatsApp
+             {/* <FloatingWhatsApp
         phoneNumber="57 3007256149"
         accountName="Caminos de Amor"
         allowEsc
@@ -22,11 +21,11 @@ export const OptionsQr = () => {
         buttonStyle={{ marginBottom: "80px" }}
         chatboxStyle={{ marginBottom: "70px" }}
         avatar={logo}
-      />
-            <div className="container-fluid mt-1 ">
+      />*/}
+            <div className="container-fluid mt-1 "> 
                 <div className="row text-center mt-5 ">
                     <div className="col-sm-12 mb-5">
-                        <NavLink to={'/planes'} className="btn qrBtn">Planes</NavLink>
+                        <NavLink to={'/home'} className="btn qrBtn">Inicio</NavLink>
                     </div>
                     <div className="col-sm-12 mb-5">
                         <NavLink to={"/pagos"} className="btn qrBtn">Pagar</NavLink>

@@ -1,9 +1,8 @@
 import React from "react";
 import "../css/main.css";
+import { whatsappLink } from './../config/arreglos';
 
 export const MainLove = ({ children }) => {
-  const whatsappNumber = "+573007256149";
-  const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
   return (
     <div className=" d-flex justify-content-center align-items-start">

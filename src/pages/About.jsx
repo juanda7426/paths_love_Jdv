@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "../css/about.css";
 import { isMobile } from "../config/funciones";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import { Number } from "../config/arreglos";
+import "../css/about.css";
 
 export const About = () => {
   const [mobile, setMobile] = useState(false);
@@ -13,7 +14,7 @@ export const About = () => {
   return (
     <>
       <FloatingWhatsApp
-        phoneNumber="57 3007256149"
+        phoneNumber={Number}
         accountName="Caminos de Amor"
         allowEsc
         allowClickAway

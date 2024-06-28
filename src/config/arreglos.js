@@ -18,3 +18,11 @@ export const plan1 = [
     "Cuatro Recordatorios De La Mascota",
     "Una Planta Natural",
   ];
+  
+ 
+  // export const Number = "57 3226767553";
+  // export const whatsappNumber = "+573226767553";
+
+  export const Number = "57 3007256149";
+  export const whatsappNumber = "+573007256149";
+ export const whatsappLink = `https://wa.me/${whatsappNumber}`;

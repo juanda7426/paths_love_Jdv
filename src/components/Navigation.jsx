@@ -16,12 +16,12 @@ export const Navigation = () => {
                     aria-controls="navbarTogglerDemo02"
                     aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"/>
+                    <span className="navbar-toggler-icon "/>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li className="nav-item">
-                            <NavLink className="navItem nav-link " activeClassName="active" to={'/'}>Home</NavLink>
+                            <NavLink className="navItem nav-link " activeClassName="active" to={'/home'}>Home</NavLink>
                         </li>
                         <li className="nav-item ">
                             <NavLink className="navItem nav-link" activeClassName="active" to={'/planes'}>Planes</NavLink>
@@ -32,9 +32,9 @@ export const Navigation = () => {
                         <li className="nav-item">
                             <NavLink className="navItem nav-link" activeClassName="active" to={'/contact'}>Contacto</NavLink>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <NavLink className="navItem nav-link" activeClassName="active" to={'/qr'}>Qr</NavLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>

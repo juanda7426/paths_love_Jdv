@@ -1,5 +1,6 @@
 import React from "react";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import { Number } from "../config/arreglos";
 
 export const Pagos = () => {
     const logo = "../../img/logoS.png";
@@ -7,7 +8,7 @@ export const Pagos = () => {
   return (
     <>
          <FloatingWhatsApp
-        phoneNumber="57 3007256149"
+        phoneNumber={Number}
         accountName="Caminos de Amor"
         allowEsc
         allowClickAway
