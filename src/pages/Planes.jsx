@@ -1,96 +1,139 @@
 import React from "react";
+import { plan1, plan2 } from "../config/arreglos";
 
 export const Planes = () => {
-  const Planes = ({ plan, url, description, lista }) => {
-    return (
-      <div className="col-sm-4">
-        <div
-          className="card text-center"
-          style={{
-            padding:"10px",
-            backgroundColor: "#0087B7",
-            color: "white",
-            fontSize: "16px",
-            boxShadow: "5px 4px 8px black",
-            height: "700px"
-          }}
-        >
-          <div className="card-body">
-            <h5 className="card-title">{plan}</h5>
-            <img
-              src={url}
-              alt="Plan 1"
-              style={{ height: "200px", width: "180px", borderRadius: "100px", marginBottom:"20px " }}
-            />
-            <div className="card-text text-center mb-2"><h5>{description} </h5></div>
-            <div > {lista.map((item, index) => (
-              <ul key={index}>{item}</ul>
-            ))}</div>
-            <a href="#" className="btn btn-secondary">
-              Comprar
-            </a>
-          </div>
-        </div>
-      </div>
-    );
-  };
+  const whatsappNumber = "+573007256149";
+  const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
-  const l1 = [
-    "Servicio de 1 mes de duración",
-    "Cremacion",
-    "Porta retratos de 12 x 23 cm",
-    "Cofre de 10 x 10 cm",
-    "transporte del entierro",
-  ];
-
-  const l2 = [
-    "Servicio de 2 mes de duración",
-    "Cremacion",
-    "Porta retratos de 12 x 23 cm",
-    "Cofre de 10 x 10 cm",
-    "transporte del entierro",
-    "Flores",
-  ];
-
-  const l3 = [
-    "Servicio de 3 mes de duración",
-    "Cremacion",
-    "Porta retratos de 12 x 23 cm",
-    "Cofre de 10 x 10 cm",
-    "transporte del entierro",
-    "Flores",
-    "Acompañamiento",
-  ];
 
   //*************************** */
   return (
     <>
-      <div className="container-fluid">
-        <div className="row mt-3 mb-3 justify-content-center">
-          <div className="col-sm-8">
-            <h2 className="text-center mb-5">Nuestros Planes</h2>
+      <div className="container mb-3">
+        <h4 className="text-center mt-2 mb-4">
+          Traslado de la mascota fallecida un solo traslado Suroeste Antioqueño
+          Medellín o área Metropolitana
+        </h4>
+        <div className="row">
+          <div className="col-sm-6">
+            <div
+              className="card text-center"
+              style={{
+                padding: "10px",
+                backgroundColor: "#0087B7",
+                color: "white",
+                fontSize: "16px",
+                boxShadow: "5px 4px 8px black",
+                height: "600px",
+              }}
+            >
+              <div className="card-body">
+                <h4 className="card-title">Plan Sin Devolución De Cenizas</h4>
+                <img
+                  src="../img/plan 1.jpeg"
+                  alt="Plan 1"
+                  style={{
+                    height: "100px",
+                    width: "100px",
+                    borderRadius: "100px",
+                    marginBottom: "20px ",
+                  }}
+                />
+                <p className="card-text">
+                  {plan1.map((servicio, index) => (
+                    <div
+                      key={index}
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                      }}
+                    >
+                      <strong className="mb-4">{servicio}</strong>
+                      <img
+                        src="../img/ok1.png"
+                        type="checkbox"
+                        style={{ height: "25px", marginBottom: "10px" }}
+                      />
+                    </div>
+                  ))}
+                </p>
+                <a
+                  href={whatsappLink}
+                  target="_blank"
+                  title="Chat WhatsApp"
+                  className="btn btn-secondary mt-3"
+                  style={{
+                    position: "absolute",
+                    bottom: "10px",
+                    left: "50%",
+                    transform: "translateX(-50%)",
+                  }}
+                >
+                  Mas Informacion
+                </a>
+              </div>
+            </div>
+          </div>
 
-            <div className="row ">
-              <Planes
-                plan="Plan 1"
-                url="../img/funeral.jpeg"
-                description="Descripcion"
-                lista={l1}
-              />
-
-              <Planes
-                plan="Plan 2"
-                url="../img/funeral.jpeg"
-                description="Descripcion"
-                lista={l2}
-              />
-
-              <Planes
-                plan="Plan 3"
-                url="../img/funeral.jpeg"
-                description="Descripcion"
-                lista={l3}
-              />
+          <div className="col-sm-6">
+            <div
+              className="card text-center"
+              style={{
+                padding: "10px",
+                backgroundColor: "#9E9E9E",
+                color: "white",
+                fontSize: "16px",
+                boxShadow: "5px 4px 8px black",
+                height: "600px",
+              }}
+            >
+              <div className="card-body">
+                <h4 className="card-title">Plan Con Devolución De Cenizas</h4>
+                <img
+                  src="../img/plan 1.jpeg"
+                  alt="Plan 1"
+                  style={{
+                    height: "100px",
+                    width: "100px",
+                    borderRadius: "100px",
+                    marginBottom: "20px ",
+                  }}
+                />
+                <p className="card-text">
+                  {plan2.map((servicio, index) => (
+                    <div
+                      key={index}
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                      }}
+                    >
+                      <strong className="mb-2">{servicio}</strong>
+                      <img
+                        src="../img/ok1.png"
+                        type="checkbox"
+                        style={{ height: "25px", marginBottom: "10px" }}
+                      />
+                    </div>
+                  ))}
+                </p>
+                <a
+                  href={whatsappLink}
+                  target="_blank"
+                  title="Chat WhatsApp"
+                  className="btn btn-primary mt-3"
+                  style={{
+                    position: "absolute",
+                    bottom: "10px",
+                    left: "50%",
+                    transform: "translateX(-50%)",
+                  }}
+                >
+                  Mas Informacion
+                </a>
+              </div>
             </div>
           </div>
         </div>

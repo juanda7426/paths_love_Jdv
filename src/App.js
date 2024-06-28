@@ -6,6 +6,7 @@ import { About } from "./pages/About"
 import { Contact } from "./pages/Contact"
 import { Planes } from "./pages/Planes"
 import { OptionsQr } from "./pages/OptionsQr"
+import { Pagos } from "./pages/Pagos"
 
 
 export const App = () => {
@@ -20,6 +21,7 @@ export const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/planes" element={<Planes />} />
             <Route path="/qr" element={<OptionsQr />} />
+            <Route path="/pagos" element={<Pagos />} />
           </Routes>
         </MainLove>
       </BrowserRouter>
