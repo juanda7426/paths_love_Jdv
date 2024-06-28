@@ -1,21 +1,39 @@
 import React, { useEffect, useState } from "react";
 import "../css/about.css";
 import { isMobile } from "../config/funciones";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 export const About = () => {
   const [mobile, setMobile] = useState(false);
-
+  const logo = "../../img/logoS.png";
   useEffect(() => {
     isMobile(setMobile);
   }, []);
 
   return (
     <>
+      <FloatingWhatsApp
+        phoneNumber="57 3007256149"
+        accountName="Caminos de Amor"
+        allowEsc
+        allowClickAway
+        notification
+        notificationSound
+        chatMessage={`Tienes alguna pregunta sobre nuestra funeraria ? `}
+        buttonClassName="me-2 mb-0"
+        buttonStyle={{ marginBottom: "80px" }}
+        chatboxStyle={{ marginBottom: "70px" }}
+        avatar={logo}
+      />
       <div className="container-fluid ">
         {/* Nosotros */}
         <div
           className="card mt-3 "
-          style={{ boxShadow: "5px 4px 8px black", padding: "20px", backgroundColor: "#F5F5F5" }}
+          style={{
+            boxShadow: "5px 4px 8px black",
+            padding: "20px",
+            backgroundColor: "#F5F5F5",
+          }}
         >
           <div className="card-body">
             <h3
@@ -27,7 +45,7 @@ export const About = () => {
             <div className="row mt-3 justify-content-evenly">
               <div className="col-sm-5 me-2 ">
                 <img
-                  src="../img/loveRct.jpg"
+                  src="../../img/loveRct.jpg"
                   alt="About Us"
                   className="img-fluid "
                   style={
@@ -143,7 +161,11 @@ export const About = () => {
         {/* Vision */}
         <div
           className="card mt-3"
-          style={{ boxShadow: "5px 4px 8px black", padding: "20px" , backgroundColor: "#F5F5F5" }}
+          style={{
+            boxShadow: "5px 4px 8px black",
+            padding: "20px",
+            backgroundColor: "#F5F5F5",
+          }}
         >
           <div className="card-body">
             <h3 className="text-center">Nuestra Vision</h3>

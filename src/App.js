@@ -14,7 +14,7 @@ export const App = () => {
     <>
       <BrowserRouter>
         <Navigation />
-        <MainLove >
+        {/* <MainLove > */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -23,7 +23,7 @@ export const App = () => {
             <Route path="/qr" element={<OptionsQr />} />
             <Route path="/pagos" element={<Pagos />} />
           </Routes>
-        </MainLove>
+        {/* </MainLove> */}
       </BrowserRouter>
     </>
   )

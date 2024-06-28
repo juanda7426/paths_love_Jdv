@@ -1,8 +1,24 @@
 import React from "react";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 export const Pagos = () => {
+    const logo = "../../img/logoS.png";
+
   return (
     <>
+         <FloatingWhatsApp
+        phoneNumber="57 3007256149"
+        accountName="Caminos de Amor"
+        allowEsc
+        allowClickAway
+        notification
+        notificationSound
+        chatMessage={`Tienes alguna pregunta sobre nuestra funeraria ? `}
+        buttonClassName="me-2 mb-0"
+        buttonStyle={{ marginBottom: "80px" }}
+        chatboxStyle={{ marginBottom: "70px" }}
+        avatar={logo}
+      />
       <div className="container">
         <h3 className="text-center">Nuestros medios de pago</h3>
         <div className="row">

@@ -1,14 +1,29 @@
 import React from "react";
 import { plan1, plan2 } from "../config/arreglos";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 export const Planes = () => {
   const whatsappNumber = "+573007256149";
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
+  const logo = "../../img/logoS.png";
 
 
   //*************************** */
   return (
     <>
+         <FloatingWhatsApp
+        phoneNumber="57 3007256149"
+        accountName="Caminos de Amor"
+        allowEsc
+        allowClickAway
+        notification
+        notificationSound
+        chatMessage={`Tienes alguna pregunta sobre nuestra funeraria ? `}
+        buttonClassName="me-2 mb-0"
+        buttonStyle={{ marginBottom: "80px" }}
+        chatboxStyle={{ marginBottom: "70px" }}
+        avatar={logo}
+      />
       <div className="container mb-3">
         <h4 className="text-center mt-2 mb-4">
           Traslado de la mascota fallecida un solo traslado Suroeste Antioqueño
