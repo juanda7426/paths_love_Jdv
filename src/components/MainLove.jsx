@@ -13,7 +13,6 @@ export const MainLove = ({ children }) => {
         href={whatsappLink}
         title="Chat WhatsApp"
         target="_blank"
-        rel="noopener noreferrer"
         className="btn btn-success whatsapp-float fab fa-whatsapp"
       />
     </div>

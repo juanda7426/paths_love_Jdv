@@ -25,15 +25,15 @@ export const FooterLove = () => {
                             <div className='mt-2'>Somos fabricantes de equipos de cómputo <br />y mayoristas de tecnología</div>
                             <div className='mt-2'>
                                 <a className='m-1'
-                                    href="#" rel="noreferrer" target="_blank">
+                                    href="#"  target="_blank">
                                     <i className="fab fa-facebook" />
                                 </a>
                                 <a className='m-1'
-                                    href="#" rel="noreferrer" target="_blank">
+                                    href="#"  target="_blank">
                                     <i className="fab fa-instagram" />
                                 </a>
                                 <a className='m-1'
-                                    href="#" rel="noreferrer" target="_blank">
+                                    href="#"  target="_blank">
                                     <i className="fa-brands fa-linkedin" />
                                 </a>
                             </div>
@@ -64,7 +64,7 @@ export const FooterLove = () => {
                             <div className="col-md-4 text-center  mb-md-0">
                                 <div className="text-right">
                                     <a href=""
-                                        rel="noreferrer" target="_blank"
+                                         target="_blank"
                                         className='text-decoration-none text-white-50'>
                                         Procesamos nuestros pagos con:
                                         <img src={""} alt="" height={'40px'} /></a>
