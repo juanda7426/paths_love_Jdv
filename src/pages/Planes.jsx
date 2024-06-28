@@ -1,17 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { plan1, plan2 } from "../config/arreglos";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import { isMobile } from "./../config/funciones";
 
 export const Planes = () => {
   const whatsappNumber = "+573007256149";
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
   const logo = "../../img/logoS.png";
+  const [mobile, setMobile] = useState(false);
 
+  useEffect(() => {
+    isMobile(setMobile);
+  }, []);
 
   //*************************** */
   return (
     <>
-         <FloatingWhatsApp
+      <FloatingWhatsApp
         phoneNumber="57 3007256149"
         accountName="Caminos de Amor"
         allowEsc
@@ -25,24 +30,27 @@ export const Planes = () => {
         avatar={logo}
       />
       <div className="container mb-3">
-        <h4 className="text-center mt-2 mb-4">
+        <h4 className="text-center mt-2 mb-4"  style={mobile ? { fontSize: "14px", textAlign: "center" } : { fontSize: "16px" }}>
           Traslado de la mascota fallecida un solo traslado Suroeste Antioqueño
           Medellín o área Metropolitana
         </h4>
         <div className="row">
-          <div className="col-sm-6">
+
+          <div className={`col-sm-6 ${mobile ? "mb-3" : ""}`}>
             <div
               className="card text-center"
               style={{
                 padding: "10px",
                 backgroundColor: "#0087B7",
                 color: "white",
-                fontSize: "16px",
                 boxShadow: "5px 4px 8px black",
                 height: "600px",
               }}
             >
-              <div className="card-body">
+              <div
+                className="card-body"
+                style={mobile ? { fontSize: "11px", textAlign: "center" } : { fontSize: "16px" }}
+              >
                 <h4 className="card-title">Plan Sin Devolución De Cenizas</h4>
                 <img
                   src="../img/plan 1.jpeg"
@@ -98,12 +106,15 @@ export const Planes = () => {
                 padding: "10px",
                 backgroundColor: "#9E9E9E",
                 color: "white",
-                fontSize: "16px",
+                // fontSize: "16px",
                 boxShadow: "5px 4px 8px black",
                 height: "600px",
               }}
             >
-              <div className="card-body">
+              <div
+                className="card-body"
+                style={mobile ? { fontSize: "11px", textAlign: "center" } : { fontSize: "16px" }}
+              >
                 <h4 className="card-title">Plan Con Devolución De Cenizas</h4>
                 <img
                   src="../img/plan 1.jpeg"
@@ -151,6 +162,7 @@ export const Planes = () => {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </>

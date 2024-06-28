@@ -32,7 +32,7 @@ export const About = () => {
           style={{
             boxShadow: "5px 4px 8px black",
             padding: "20px",
-            backgroundColor: "#F5F5F5",
+            backgroundColor: "#e0e0e0",
           }}
         >
           <div className="card-body">
@@ -59,7 +59,7 @@ export const About = () => {
                       : {
                           height: "450px",
                           width: "600px",
-                          borderRadius: "100px",
+                          borderRadius: "50px",
                         }
                   }
                 />
@@ -149,7 +149,7 @@ export const About = () => {
                       : {
                           height: "450px",
                           width: "600px",
-                          borderRadius: "100px",
+                          borderRadius: "50px",
                         }
                   }
                 />
@@ -164,7 +164,7 @@ export const About = () => {
           style={{
             boxShadow: "5px 4px 8px black",
             padding: "20px",
-            backgroundColor: "#F5F5F5",
+            backgroundColor: "#e0e0e0",
           }}
         >
           <div className="card-body">
@@ -186,7 +186,7 @@ export const About = () => {
                       : {
                           height: "450px",
                           width: "600px",
-                          borderRadius: "100px",
+                          borderRadius: "50px",
                         }
                   }
                 />
