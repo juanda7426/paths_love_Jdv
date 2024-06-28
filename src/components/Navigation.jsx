@@ -21,7 +21,7 @@ export const Navigation = () => {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li className="nav-item">
-                            <NavLink className="navItem nav-link " activeClassName="active" to={'/home'}>Home</NavLink>
+                            <NavLink className="navItem nav-link " activeClassName="active" to={'/home'}>Inicio</NavLink>
                         </li>
                         <li className="nav-item ">
                             <NavLink className="navItem nav-link" activeClassName="active" to={'/planes'}>Planes</NavLink>

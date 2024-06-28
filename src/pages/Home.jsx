@@ -1,15 +1,15 @@
 import React from 'react'
-import { FooterLove } from '../components/FooterLove'
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import { Number } from '../config/arreglos';
+// import { FooterLove } from '../components/FooterLove'
+// import { FloatingWhatsApp } from 'react-floating-whatsapp'
+// import { Number } from '../config/arreglos';
 
 export const Home = () => {
-  const logo = "../../img/logoS.png";
+  // const logo = "../../img/logoS.png";
 
   
   return (
     <>
-         <FloatingWhatsApp
+         {/* <FloatingWhatsApp
         phoneNumber={Number}
         accountName="Caminos de Amor"
         allowEsc
@@ -21,9 +21,10 @@ export const Home = () => {
         buttonStyle={{ marginBottom: "80px" }}
         chatboxStyle={{ marginBottom: "70px" }}
         avatar={logo}
-      />
-      <h1 className='text-center'>
-        Home</h1>
+      /> */}
+      <div className="container text-center" >
+        <img src="../../img/construccion.jpg" alt="en construccion"  style={{ height: "80%", width: "80%", marginTop: "5%"}}/>
+      </div>
 
     </>
   )

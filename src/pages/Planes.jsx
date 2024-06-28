@@ -53,7 +53,7 @@ export const Planes = () => {
               >
                 <h4 className="card-title">Plan Sin Devolución De Cenizas</h4>
                 <img
-                  src="../img/plan 1.jpeg"
+                  src="../img/logoLov.jpg"
                   alt="Plan 1"
                   style={{
                     height: "100px",
@@ -61,7 +61,7 @@ export const Planes = () => {
                     borderRadius: "100px",
                     marginBottom: "20px ",
                   }}
-                />
+                  />
                 <p className="card-text">
                   {plan1.map((servicio, index) => (
                     <div
@@ -86,7 +86,7 @@ export const Planes = () => {
                   target="_blank"
                   title="Chat WhatsApp"
                   className="btn btn-secondary btn-informacion"
-                >
+                  >
                   Mas Informacion
                 </a>
               </div>
@@ -110,7 +110,7 @@ export const Planes = () => {
               >
                 <h4 className="card-title">Plan Con Devolución De Cenizas</h4>
                 <img
-                  src="../img/plan 1.jpeg"
+                  src="../img/logoLov.jpg"
                   alt="Plan 1"
                   style={{
                     height: "100px",
