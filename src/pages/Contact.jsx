@@ -1,17 +1,11 @@
-import React, { useEffect, useState } from "react";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
-import { isMobile } from "./../config/funciones";
 import { Number } from "../config/arreglos";
+// import { About } from "./About";
 
 export const Contact = () => {
   const logo = "../../img/logoS.png";
 
-  const [mobile, setMobile] = useState(false);
-
-  useEffect(() => {
-    isMobile(setMobile);
-  }, []);
-
+  //*************************** */
   return (
     <>
       <FloatingWhatsApp
@@ -27,9 +21,11 @@ export const Contact = () => {
         chatboxStyle={{ marginBottom: "70px" }}
         avatar={logo}
       />
+
       <div className="container-fluid">
         <div className="row mt-3 justify-content-evenly ">
-          <div className={`card col-sm-5 p-3 ${mobile && "mb-3"}`}
+          {/* Formulario */}
+          {/* <div className={`card col-sm-5 p-3 ${mobile && "mb-3"}`}
             style={{
               backgroundColor: "#0087B7",
               color: "white",
@@ -64,13 +60,16 @@ export const Contact = () => {
                 Enviar
               </button>
             </div>
-          </div>
+          </div> */}
 
-          <div className="card col-sm-5 bg-dark text-light text-center p-3"
-             style={{
+          {/* Datos de contacto */}
+          <div
+            className="card col-sm-5 bg-dark text-light text-center p-1"
+            style={{
               boxShadow: "5px 4px 8px black",
               padding: "20px",
-            }}>
+            }}
+          >
             <div className="card-body">
               <h2 className="text-center mb-4">Datos de contacto</h2>
               <p>
@@ -79,7 +78,14 @@ export const Contact = () => {
                   <strong className="mb-2">
                     <i className="fab fa-whatsapp fs-5"></i>
                   </strong>{" "}
-                  +57 322 6767553 <br />{" "}
+                  +57 3234035961 <br />
+                </p>
+                <p>
+                  {" "}
+                  <strong className="mb-2">
+                    <i className="fab fa-whatsapp fs-5"></i>
+                  </strong>{" "}
+                  +57 3105390693 <br />
                 </p>
                 <p>
                   {" "}
@@ -109,11 +115,14 @@ export const Contact = () => {
                   </i>
                 </a>{" "}
                 <br />
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.instagram.com/caminosde.amor?utm_source=qr&igsh=OGx0Zm91dTF3enA1"
+                  target="_blank"
+                >
                   <i className="fab fa-instagram fs-5 mb-4"> Caminosde.Amor</i>
                 </a>{" "}
                 <br />
-                <a href="#" target="_blank">
+                <a href="https://vm.tiktok.com/ZMrrg4Vhu/" target="_blank">
                   <i className="fab fa-tiktok fs-5 mb-4"> caminosdeAmor4</i>
                 </a>{" "}
                 <br />

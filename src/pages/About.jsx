@@ -5,12 +5,16 @@ import { Number } from "../config/arreglos";
 import "../css/about.css";
 
 export const About = () => {
+
   const [mobile, setMobile] = useState(false);
   const logo = "../../img/logoS.png";
+
+  //*************************** */
   useEffect(() => {
     isMobile(setMobile);
   }, []);
-
+  
+  //*************************** */
   return (
     <>
       <FloatingWhatsApp
@@ -26,6 +30,7 @@ export const About = () => {
         chatboxStyle={{ marginBottom: "70px" }}
         avatar={logo}
       />
+      
       <div className="container-fluid ">
         {/* Nosotros */}
         <div
@@ -75,7 +80,7 @@ export const About = () => {
               >
                 <h2 className="text-light mb-3 text-center">Sobre nosotros</h2>
                 <p className="mt-1">
-                  Nuestra funeraria se especializa en el cuidado y entierro de
+                  Nuestra funeraria se especializa en el cuidado y cremación de
                   mascotas. Estamos orgullosos de ser parte de este proceso tan
                   importante y emotivo para ti y tu compañero peludo. Nuestro
                   compromiso es brindar un servicio de alta calidad y respeto a
@@ -85,7 +90,7 @@ export const About = () => {
                 <p className="mt-1">
                   Nuestro equipo de profesionales está dedicado a ofrecer un
                   servicio personalizado y responsable, donde cada detalle se
-                  tiene en cuenta para garantizar que el entierro de tu mascota
+                  tiene en cuenta para garantizar que el cremación de tu mascota
                   sea un recuerdo digno. Siempre estamos buscando innovar y
                   mejorar nuestros servicios para ofrecer a tu mascota un adiós
                   digno.

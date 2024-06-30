@@ -18,11 +18,15 @@ export const plan1 = [
     "Cuatro Recordatorios De La Mascota",
     "Una Planta Natural",
   ];
+ export const plan3 = [
+    "Podra Elegir Cualquier Cremación",
+    "El Plan Podras Armarlo Como Lo Necesites",
+    "Nos Acomodamos A Tus Necesidades",
+  ];
   
  
-  // export const Number = "57 3226767553";
-  // export const whatsappNumber = "+573226767553";
-
-  export const Number = "57 3007256149";
-  export const whatsappNumber = "+573007256149";
- export const whatsappLink = `https://wa.me/${whatsappNumber}`;
+  // export const Number = "57 3007256149";
+  // export const whatsappNumber = "+573007256149";
+  export const Number = "57 3234035961";
+  export const whatsappNumber = "+573234035961";
+  export const whatsappLink = `https://wa.me/${whatsappNumber}`;

@@ -6,6 +6,7 @@ import { Contact } from "./pages/Contact"
 import { Planes } from "./pages/Planes"
 import { OptionsQr } from "./pages/OptionsQr"
 import { Pagos } from "./pages/Pagos"
+import { Beneficios } from "./pages/Beneficios"
 
 
 export const App = () => {
@@ -20,6 +21,7 @@ export const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/planes" element={<Planes />} />
             <Route path="/pagos" element={<Pagos />} />
+            <Route path="/beneficios" element={<Beneficios />} />
           </Routes>
       </BrowserRouter>
     </>

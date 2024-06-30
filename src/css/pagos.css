@@ -1,0 +1,57 @@
+.cont-ppal{
+    background-color: rgb(212, 212, 212);
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 4px 8px black;
+    border-radius: 10px;
+    min-height: 500px;
+    padding: 20px;
+}
+.cntPG1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    background-color: #909090;
+    color: white;
+    box-shadow: 5px 4px 8px black;
+    min-height: 400px;
+    box-shadow: 5px 5px 13px rgb(0, 0, 0);
+}
+.cntPG2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    background-color: #0087B7;
+    color: white;
+    box-shadow: 5px 4px 8px black;
+   min-height: 400px;
+   box-shadow: 5px 5px 13px rgb(0, 0, 0);
+}
+.cntPG3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    background-color: #000000;
+    color: white;
+    box-shadow: 5px 4px 8px black;
+   min-height: 400px;
+   box-shadow: 5px 5px 13px rgb(0, 0, 0);
+}
+
+
+
+.bancolombia{
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto 50px; 
+}
+
+.nequi{
+    max-width: 300px;
+    max-height: 300px;    
+    margin: auto 50px; 
+}
+
+

@@ -32,9 +32,9 @@ export const Navigation = () => {
                         <li className="nav-item">
                             <NavLink className="navItem nav-link" activeClassName="active" to={'/contact'}>Contacto</NavLink>
                         </li>
-                        {/* <li className="nav-item">
-                            <NavLink className="navItem nav-link" activeClassName="active" to={'/qr'}>Qr</NavLink>
-                        </li> */}
+                        <li className="nav-item">
+                            <NavLink className="navItem nav-link" activeClassName="active" to={'/beneficios'}>Beneficios</NavLink>
+                        </li>
                     </ul>
                 </div>
             </div>
