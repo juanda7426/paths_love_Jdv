@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import { Number, whatsappLink } from './../config/arreglos';
 import '../css/qr.css'
+import { FooterLove } from '../components/FooterLove';
 
 export const OptionsQr = () => {
 
@@ -37,6 +38,7 @@ export const OptionsQr = () => {
                     </div>
                 </div>
             </div>
+            <FooterLove/>
         </>
     )
 }

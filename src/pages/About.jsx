@@ -3,6 +3,7 @@ import { isMobile } from "../config/funciones";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { Number } from "../config/arreglos";
 import "../css/about.css";
+import { FooterLove } from "../components/FooterLove";
 
 export const About = () => {
 
@@ -226,6 +227,7 @@ export const About = () => {
           </div>
         </div>
       </div>
+      <FooterLove/>
     </>
   );
 };

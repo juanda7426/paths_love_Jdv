@@ -3,6 +3,7 @@ import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { isMobile } from "../config/funciones";
 import { Number } from "../config/arreglos";
 import "../css/beneficios.css";
+import { FooterLove } from './../components/FooterLove';
 
 export const Beneficios = () => {
   const [mobile, setMobile] = useState(false);
@@ -145,6 +146,7 @@ export const Beneficios = () => {
           </div>
         </div>
       </div>
+      <FooterLove/>
     </>
   );
 };

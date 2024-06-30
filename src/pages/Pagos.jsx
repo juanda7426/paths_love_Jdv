@@ -3,6 +3,7 @@ import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { Number } from "../config/arreglos";
 import { isMobile } from './../config/funciones';
 import "../css/pagos.css";
+import { FooterLove } from "../components/FooterLove";
 
 export const Pagos = () => {
   const logo = "../../img/logoS.png";
@@ -94,6 +95,7 @@ useEffect(() => {
           </div>
         </div>
       </div>
+      <FooterLove/>
     </>
   );
 };

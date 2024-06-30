@@ -1,5 +1,6 @@
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { Number } from "../config/arreglos";
+import { FooterLove } from "../components/FooterLove";
 // import { About } from "./About";
 
 export const Contact = () => {
@@ -131,6 +132,7 @@ export const Contact = () => {
           </div>
         </div>
       </div>
+      <FooterLove/>
     </>
   );
 };

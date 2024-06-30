@@ -3,6 +3,7 @@ import { Number, plan1, plan2, plan3, whatsappLink } from "../config/arreglos";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { isMobile } from "./../config/funciones";
 import "../css/planes.css";
+import { FooterLove } from "../components/FooterLove";
 
 export const Planes = () => {
   
@@ -153,9 +154,9 @@ export const Planes = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
+      <FooterLove/>
     </>
   );
 };
