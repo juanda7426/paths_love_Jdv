@@ -23,7 +23,7 @@ export const Home = () => {
         avatar={logo}
       /> */}
       <div className="container text-center" >
-        <img src="../../img/construccion.jpg" alt="en construccion"  style={{ height: "80%", width: "80%", marginTop: "5%"}}/>
+        <img src="../../img/construccion.jpg" alt="en construccion"  style={{ height: "80%", width: "80%", marginTop: "20px"}}/>
       </div>
 
     </>

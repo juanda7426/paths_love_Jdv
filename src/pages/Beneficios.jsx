@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { isMobile } from "../config/funciones";
+import { Number } from "../config/arreglos";
 import "../css/beneficios.css";
 
 export const Beneficios = () => {
@@ -22,7 +23,7 @@ export const Beneficios = () => {
         allowClickAway
         notification
         notificationSound
-        chatMessage={`Tienes alguna pregunta sobre nuestra funeraria ? `}
+        chatMessage={'Tienes alguna pregunta sobre nuestros beneficios?'}
         buttonClassName="me-2 mb-0"
         buttonStyle={{ marginBottom: "80px" }}
         chatboxStyle={{ marginBottom: "70px" }}
@@ -132,7 +133,7 @@ export const Beneficios = () => {
                 </div>
                <div className="col">
                   <div className="card tarjeta">
-                    <img src="../../img/censa.png" className="card-img-top img-card-beneficios" alt="Logo CENSA" />
+                    <img src="../../img/censa.jpg" className="card-img-top img-card-beneficios" alt="Logo CENSA" />
                     <div className="card-body">
                       <h5 className="card-title  titulos">MATRICULA GRATIS PARA ESTUDIO CENSA (APLICA CONDICIONES)</h5>
                     </div>

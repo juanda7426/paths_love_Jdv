@@ -3,55 +3,72 @@
     color: rgb(0, 0, 0);
     box-shadow: 5px 4px 8px black;
     border-radius: 10px;
-    min-height: 500px;
+    max-height: auto;
     padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contTarget{
+     color: white;
+    box-shadow: 5px 4px 8px black;
+    min-height: 350px;
+    padding: 10px;
 }
 .cntPG1{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    position: relative;
     background-color: #909090;
-    color: white;
-    box-shadow: 5px 4px 8px black;
-    min-height: 400px;
-    box-shadow: 5px 5px 13px rgb(0, 0, 0);
+    box-shadow:5px 4px 8px black;
+    
 }
 .cntPG2{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    position: relative;
     background-color: #0087B7;
-    color: white;
-    box-shadow: 5px 4px 8px black;
-   min-height: 400px;
-   box-shadow: 5px 5px 13px rgb(0, 0, 0);
+    box-shadow:5px 4px 8px black;
 }
 .cntPG3{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    position: relative;
     background-color: #000000;
-    color: white;
-    box-shadow: 5px 4px 8px black;
-   min-height: 400px;
-   box-shadow: 5px 5px 13px rgb(0, 0, 0);
+    box-shadow:5px 4px 8px black;
 }
 
-
-
-.bancolombia{
-    max-width: 300px;
-    max-height: 300px;
-    margin: auto 50px; 
+.cont-recordar{
+    display: flex;
+    justify-content: center;
 }
 
-.nequi{
-    max-width: 300px;
-    max-height: 300px;    
-    margin: auto 50px; 
+.recordar{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+  background-color: #0087B7;
+    color: #ffffff;
+    width: max-content;
+    padding: 5px 20px;
+    border-radius: 10px;
 }
 
+/* media queries */
 
+@media (width<=768px) {
+    .recordar{
+        font-size: 12px;
+    }
+
+    .img-pago{
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .cont-ppal{
+        padding: 10px;
+    }
+
+    .contTarget{
+        min-height: 250px;
+    }
+}
+
+@media (width<=576px) {
+    .img-pago{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}

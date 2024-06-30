@@ -24,7 +24,7 @@ export const About = () => {
         allowClickAway
         notification
         notificationSound
-        chatMessage={`Tienes alguna pregunta sobre nuestra funeraria ? `}
+        chatMessage='Tienes alguna pregunta sobre nosotros?'
         buttonClassName="me-2 mb-0"
         buttonStyle={{ marginBottom: "80px" }}
         chatboxStyle={{ marginBottom: "70px" }}
@@ -141,7 +141,7 @@ export const About = () => {
               </div>
               <div className="col-sm-5 me-2 ">
                 <img
-                  src="../img/loveRct.jpg"
+                  src="../img/msn.webp"
                   alt="About Us"
                   className="img-fluid"
                   style={
@@ -178,7 +178,7 @@ export const About = () => {
             <div className="row mt-3 justify-content-evenly">
               <div className="col-sm-5 me-2 ">
                 <img
-                  src="../img/loveRct.jpg"
+                  src="../img/vision.jpeg"
                   alt="About Us"
                   className="img-fluid "
                   style={

@@ -26,7 +26,6 @@ export const plan1 = [
   
  
   // export const Number = "57 3007256149";
-  // export const whatsappNumber = "+573007256149";
+  // export const whatsappNumber = "573007256149";
   export const Number = "57 3234035961";
-  export const whatsappNumber = "+573234035961";
-  export const whatsappLink = `https://wa.me/${whatsappNumber}`;
+  export const whatsappLink = 'https://wa.me/573234035961';

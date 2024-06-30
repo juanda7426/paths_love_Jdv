@@ -23,14 +23,15 @@ export const Planes = () => {
         allowClickAway
         notification
         notificationSound
-        chatMessage={`Tienes alguna pregunta sobre nuestra funeraria ? `}
+        chatMessage='Tienes alguna pregunta sobre nuestros servicios y planes?'
         buttonClassName="me-2 mb-0"
         buttonStyle={{ marginBottom: "80px" }}
         chatboxStyle={{ marginBottom: "70px" }}
         avatar={logo}
       />
+
       <div className="container mb-3">
-        <h4 className="text-center mt-2 mb-4 heding"  >
+        <h4 className="text-center mt-2 mb-4 heding" style={mobile?{fontSize:"12px"}:{fontSize:"16px" }}  >
           Traslado de la mascota fallecida un solo traslado Suroeste Antioqueño
           Medellín o área Metropolitana
         </h4>
@@ -43,7 +44,7 @@ export const Planes = () => {
               >
                 <h4 className="card-title">Plan Sin Devolución De Cenizas</h4>
                 <img
-                  src="../img/logoLov.jpg"
+                  src="../img/sinDevOk.jpg"
                   className="img-card "
                   alt="Plan 1"
                   />
@@ -74,7 +75,7 @@ export const Planes = () => {
             </div>
           </div>
 
-          <div className="col-sm-4 ">
+          <div className={`col-sm-4 ${mobile ? "mb-3" : ""} `}>
             <div className="card text-center cnt2" >
               <div
                 className="card-body"
@@ -82,7 +83,7 @@ export const Planes = () => {
               >
                 <h4 className="card-title">Plan Con Devolución De Cenizas</h4>
                 <img
-                  src="../img/logoLov.jpg"
+                  src="../img/conDevOk.jpg"
                   className="img-card "
                   alt="Plan 2"
                 />
@@ -122,7 +123,7 @@ export const Planes = () => {
                 <h4 className="card-title">Planes Prepago</h4>
                 <p>Con o Sin Devolución De Cenizas</p>
                 <img
-                  src="../img/logoLov.jpg"
+                  src="../img/funeral.jpeg"
                   className="img-card "
                   alt="Plan 3"
                   />

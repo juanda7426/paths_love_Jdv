@@ -18,7 +18,7 @@ export const OptionsQr = () => {
         allowClickAway
         notification
         notificationSound
-        chatMessage={`Tienes alguna pregunta sobre nuestra funeraria ? `}
+        chatMessage={`Tienes alguna pregunta sobre nuestros servicios o formas de pago? `}
         buttonClassName="me-2 mb-0"
         buttonStyle={{ marginBottom: "80px" }}
         chatboxStyle={{ marginBottom: "70px" }}

@@ -15,7 +15,7 @@ export const Contact = () => {
         allowClickAway
         notification
         notificationSound
-        chatMessage={`Tienes alguna pregunta sobre nuestros servicios ? `}
+        chatMessage={`Tienes alguna pregunta sobre nuestros servicios o formas de contactarnos? `}
         buttonClassName="me-2 mb-0"
         buttonStyle={{ marginBottom: "80px" }}
         chatboxStyle={{ marginBottom: "70px" }}
