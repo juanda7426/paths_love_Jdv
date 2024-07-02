@@ -67,6 +67,7 @@ export const Planes = () => {
                 <a
                   href={whatsappLink}
                   target="_blank"
+                  rel="noreferrer"
                   title="Chat WhatsApp"
                   className="btn btn-informacion1"
                   >
@@ -106,6 +107,7 @@ export const Planes = () => {
                 <a
                   href={whatsappLink}
                   target="_blank"
+                  rel="noreferrer"
                   title="Chat WhatsApp"
                   className="btn btn-informacion2"
                 >
@@ -146,6 +148,7 @@ export const Planes = () => {
                 <a
                   href={whatsappLink}
                   target="_blank"
+                  rel="noreferrer"
                   title="Chat WhatsApp"
                   className="btn btn-informacion1"
                   >

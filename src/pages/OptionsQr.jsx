@@ -34,7 +34,7 @@ export const OptionsQr = () => {
                         <NavLink to={"/pagos"} className="btn qrBtn">Pagos</NavLink>
                     </div>
                     <div className="col-sm-12 mb-5">
-                        <a href={whatsappLink} target='_blank' className="btn qrBtn">Servicio Funebre</a>
+                        <a href={whatsappLink} target='_blank' rel="noreferrer" className="btn qrBtn">Servicio Funebre</a>
                     </div>
                 </div>
             </div>

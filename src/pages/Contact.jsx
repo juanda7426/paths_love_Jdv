@@ -109,6 +109,7 @@ export const Contact = () => {
                 <a
                   href="https://www.facebook.com/people/Funeraria-caminos-de-amor/100066903139742/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fab fa-facebook fs-5 mb-4 mt-3">
                     {" "}
@@ -119,11 +120,14 @@ export const Contact = () => {
                 <a
                   href="https://www.instagram.com/caminosde.amor?utm_source=qr&igsh=OGx0Zm91dTF3enA1"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fab fa-instagram fs-5 mb-4"> Caminosde.Amor</i>
                 </a>{" "}
                 <br />
-                <a href="https://vm.tiktok.com/ZMrrg4Vhu/" target="_blank">
+                <a href="https://vm.tiktok.com/ZMrrg4Vhu/"
+                 target="_blank" 
+                 rel="noreferrer">
                   <i className="fab fa-tiktok fs-5 mb-4"> caminosdeAmor4</i>
                 </a>{" "}
                 <br />

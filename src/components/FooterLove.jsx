@@ -27,6 +27,7 @@ export const FooterLove = () => {
                                 title='Facebook'
                                 href="https://www.facebook.com/people/Funeraria-caminos-de-amor/100066903139742/"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <i className="fab fa-facebook fs-3" style={{ color: "white" }} />
                             </a>
@@ -34,6 +35,7 @@ export const FooterLove = () => {
                                 title='Instagram'
                                 href="https://www.instagram.com/caminosde.amor?utm_source=qr&igsh=OGx0Zm91dTF3enA1"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <i className="fab fa-instagram fs-3" style={{ color: "white" }} />
                             </a>
@@ -41,6 +43,7 @@ export const FooterLove = () => {
                                 title='Tik-Tok'
                                 href="https://vm.tiktok.com/ZMrrg4Vhu/"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <i className="fab fa-tiktok fs-3" style={{ color: "white" }} />
                             </a>
