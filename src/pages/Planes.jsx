@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Number, plan1, plan2, plan3, whatsappLink } from "../config/arreglos";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { isMobile } from "./../config/funciones";
-import "../css/planes.css";
 import { FooterLove } from "../components/FooterLove";
+import "../css/planes.css";
 
 export const Planes = () => {
   
@@ -41,13 +41,13 @@ export const Planes = () => {
           <div className={`col-sm-4 ${mobile ? "mb-3" : ""} `}>
             <div className="card text-center cnt1">
               <div className="card-body"
-                style={mobile ? { fontSize: "11px", textAlign: "center" } : { fontSize: "16px" }}
+                // style={mobile ? { fontSize: "11px", textAlign: "center" } : { fontSize: "16px" }}
               >
                 <h4 className="card-title">Plan Sin Devolución De Cenizas</h4>
                 <img
                   src="../img/sinDevOk.jpg"
                   className="img-card "
-                  alt="Plan 1"
+                  alt="Plan sin devolución de cenizas"
                   />
                 <p className="card-text">
                   {plan1.map((servicio, index) => (
@@ -58,6 +58,7 @@ export const Planes = () => {
                       <strong className="mb-4">{servicio}</strong>
                       <img
                         src="../img/ok1.png"
+                        alt="ok"
                         type="checkbox"
                         style={{ height: "25px", marginBottom: "10px" }}
                       />
@@ -81,13 +82,13 @@ export const Planes = () => {
             <div className="card text-center cnt2" >
               <div
                 className="card-body"
-                style={mobile ? { fontSize: "11px", textAlign: "center" } : { fontSize: "16px" }}
+                // style={mobile ? { fontSize: "11px", textAlign: "center" } : { fontSize: "16px" }}
               >
                 <h4 className="card-title">Plan Con Devolución De Cenizas</h4>
                 <img
                   src="../img/conDevOk.jpg"
                   className="img-card "
-                  alt="Plan 2"
+                  alt="Plan con devolución de cenizas"
                 />
                 <p className="card-text">
                   {plan2.map((servicio, index) => (
@@ -98,6 +99,7 @@ export const Planes = () => {
                       <strong className="mb-2">{servicio}</strong>
                       <img
                         src="../img/ok1.png"
+                        alt="ok"
                         type="checkbox"
                         style={{ height: "25px", marginBottom: "10px" }}
                       />
@@ -121,14 +123,14 @@ export const Planes = () => {
             <div className="card text-center cnt3" >
               <div
                 className="card-body"
-                style={mobile ? { fontSize: "11px", textAlign: "center" } : { fontSize: "16px" }}
+                // style={mobile ? { fontSize: "11px", textAlign: "center" } : { fontSize: "16px" }}
               >
                 <h4 className="card-title">Planes Prepago</h4>
                 <p>Con o Sin Devolución De Cenizas</p>
                 <img
                   src="../img/funeral.jpeg"
                   className="img-card "
-                  alt="Plan 3"
+                  alt="Plan prepago"
                   />
                 <p className="card-text">
                   {plan3.map((servicio, index) => (
@@ -139,6 +141,7 @@ export const Planes = () => {
                       <strong className="mb-4">{servicio}</strong>
                       <img
                         src="../img/ok1.png"
+                        alt="ok"
                         type="checkbox"
                         style={{ height: "25px", marginBottom: "10px" }}
                       />

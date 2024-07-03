@@ -45,7 +45,7 @@ export const About = () => {
           <div className="card-body">
             <h3
               className="text-center"
-              style={mobile ? { fontSize: "20px" } : { fontSize: "35px" }}
+              style={mobile ? { fontSize: "20px" } : { fontSize: "30px" }}
             >
               Quienes somos?
             </h3>
@@ -76,10 +76,9 @@ export const About = () => {
                 style={{
                   backgroundColor: "#0087B7",
                   color: "white",
-                  fontSize: "16px",
                 }}
               >
-                <h2 className="text-light mb-3 text-center">Sobre nosotros</h2>
+                <h4 className="text-light mb-3 text-center">Sobre nosotros</h4>
                 <p className="mt-1">
                   Nuestra funeraria se especializa en el cuidado y cremación de
                   mascotas. Estamos orgullosos de ser parte de este proceso tan
@@ -112,7 +111,7 @@ export const About = () => {
           style={{ boxShadow: "5px 4px 8px black", padding: "20px" }}
         >
           <div className="card-body">
-            <h3 className="text-center">Nuestra Mision</h3>
+            <h3 className="text-center"  style={mobile ? { fontSize: "20px" } : { fontSize: "30px" }}>Nuestra Mision</h3>
             <div className="row mt-3 justify-content-evenly">
               <div
                 className="card col-sm-5 p-3 ms-2 text-center"
@@ -121,7 +120,7 @@ export const About = () => {
                   color: "white",
                 }}
               >
-                <h2 className="text-light mb-3 text-center">Mision</h2>
+                <h4 className="text-light mb-3 text-center">Mision</h4>
                 <p className="mt-1">
                   Somos más que una empresa; somos un apoyo compasivo en los
                   momentos más difíciles. Nos dedicamos a brindar el mejor
@@ -175,7 +174,7 @@ export const About = () => {
           }}
         >
           <div className="card-body">
-            <h3 className="text-center">Nuestra Vision</h3>
+            <h3 className="text-center"  style={mobile ? { fontSize: "20px" } : { fontSize: "30px" }}>Nuestra Vision</h3>
             <div className="row mt-3 justify-content-evenly">
               <div className="col-sm-5 me-2 ">
                 <img
@@ -203,11 +202,10 @@ export const About = () => {
                 className="card col-sm-5 p-3 ms-2 text-center"
                 style={{
                   backgroundColor: "#000000",
-                  color: "white",
-                  // fontSize: "16px",
+                  color: "white"
                 }}
               >
-                <h2 className="text-light mb-3 text-center">Vision</h2>
+                <h4 className="text-light mb-3 text-center">Vision</h4>
                 <p className="mt-1">
                   Destacarnos como la empresa líder a nivel nacional en el
                   acompañamiento, asesoría, traslado y cremación de mascotas.

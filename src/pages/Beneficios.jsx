@@ -41,7 +41,7 @@ export const Beneficios = () => {
         >
           <div className="card-body">
             <h3 className="text-center"
-              style={mobile ? { fontSize: "20px" } : { fontSize: "35px" }}
+              style={mobile ? { fontSize: "20px" } : { fontSize: "30px" }}
             >
               Beneficios Mascota
             </h3>
@@ -91,7 +91,7 @@ export const Beneficios = () => {
           <div className="card-body">
             <h3
               className="text-center"
-              style={mobile ? { fontSize: "20px" } : { fontSize: "35px" }}
+              style={mobile ? { fontSize: "20px" } : { fontSize: "30px" }}
             >
               Beneficios Para La Familia
             </h3>
@@ -126,7 +126,7 @@ export const Beneficios = () => {
                 </div>
                <div className="col">
                   <div className="card tarjeta">
-                    <img src="../../img/optometria.jpg" className="card-img-top img-card-beneficios" alt="optometria" />
+                    <img src="../../img/optica1.jpg" className="card-img-top img-card-beneficios" alt="optometria" />
                     <div className="card-body">
                       <h5 className="card-title  titulos">OPTOMETRIA</h5>
                     </div>

@@ -59,10 +59,10 @@ export const FooterLove = () => {
                 </div>
 
 
-                <div className="row justify-content-center bg-dark">
+                <div className="row justify-content-center bg-dark" style={{fontSize:"12px"}}>
 
                     <div className="col-md-4 text-center" >
-                        <p className='my-2'>Copyright &copy; Caminos de Amor SAS.  All Right Reserved 2024</p>
+                        <p className='my-2'>Copyright 2024 &copy; Caminos de Amor SAS.</p>
                     </div>
                     <div className="col-md-4 text-center text-md-center mb-md-0">
                         <p className='my-2'>Desarrollado por JDEV!</p>
