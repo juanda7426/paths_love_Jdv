@@ -65,7 +65,7 @@ export const FooterLove = () => {
                         <p className='my-2'>Copyright 2024 &copy; Caminos de Amor SAS.</p>
                     </div>
                     <div className="col-md-4 text-center text-md-center mb-md-0">
-                        <p className='my-2'>Desarrollado por JDEV!</p>
+                        <p className='my-2'>Desarrollado por JUANDA-CODE!</p>
                     </div>
                 </div>
             </div>
