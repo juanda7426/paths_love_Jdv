@@ -27,10 +27,10 @@ export const Navigation = () => {
                             <NavLink className="navItem nav-link" activeClassName="active" to={'/planes'}>Planes</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="navItem nav-link" activeClassName="active" to={'/about'}>Nosotros</NavLink>
+                            <NavLink className="navItem nav-link" activeClassName="active" to={'/nosotros'}>Nosotros</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="navItem nav-link" activeClassName="active" to={'/contact'}>Contacto</NavLink>
+                            <NavLink className="navItem nav-link" activeClassName="active" to={'/contacto'}>Contacto</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="navItem nav-link" activeClassName="active" to={'/beneficios'}>Beneficios</NavLink>

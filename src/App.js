@@ -17,8 +17,8 @@ export const App = () => {
           <Routes>
             <Route path="/" element={<OptionsQr />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/nosotros" element={<About />} />
+            <Route path="/contacto" element={<Contact />} />
             <Route path="/planes" element={<Planes />} />
             <Route path="/pagos" element={<Pagos />} />
             <Route path="/beneficios" element={<Beneficios />} />
